@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	background-color: #29ABE2;
+}
+.header{
+	background-image: url("../images/button.jpg");
+	background-size: 100%, 80px;
+	height: 75px;
+	width: 100%;
+	font-size: 16px;
+	position:absolute;
+	background-position: left top;
+	top: 0px;
+}
+.header table{
+	width: 100%;
+}
+.header table tr td{
+	width: 25%;
+}
+.bigbutton{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	margin:0px;
+	width: 80%;
+	height:100%;
+	margin-left:10%;
+	margin-right:10%;
+}
+.main{
+	position:relative;
+	width: 400px;
+	top: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	text-align:center;
+	border:10px solid;
+	border-color:#FFFFFF;
+	border-radius:20px;
+	color: white;
+	overflow:auto;
+}
+.wideContent{
+	position:relative;
+	width: 900px;
+	top: 70px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 100px;
+	background-color:white;
+	opacity: 0.9;
+}
+.main table tr td{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+.main table tr td div{
+	width: 100%;
+	height: 200px;
+	line-height: 100%;
+	display: table-cell;
+	color: black;
+}
+#hide{
+	display: none;
+	position: absolute;
+	margin: auto;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	z-index: 5;
+	background-color: grey;
+	opacity: 0.8;
+	text-align: center;
+}
+#load{
+	display: none;
+	position: absolute;
+	top:20%;
+	left:25%;
+	min-width:50%;
+	z-index:10;
+	background-color:white;
+	opacity:1;
+	margin:0;
+	text-align:center;
+	height: 400px;
+}
